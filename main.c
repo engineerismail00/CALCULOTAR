@@ -10,6 +10,9 @@ int main(void) {
   else if (sayi > 0)
     printf("Girilen sayi pozitif");
   else
+
     printf("Girilen sayi negatif");
+     printf("program sonlandirildi");
+
   return 0;
 }
