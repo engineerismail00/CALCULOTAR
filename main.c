@@ -11,7 +11,7 @@ int main(void) {
     printf("Girilen sayi pozitif");
   else
     printf("Girilen sayi negatif\n");
-    printf("seni sevmistim ama sen bana inanmadin good bye");
+
 
   return 0;
 }
