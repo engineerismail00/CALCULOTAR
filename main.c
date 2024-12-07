@@ -10,6 +10,8 @@ int main(void) {
   else if (sayi > 0)
     printf("Girilen sayi pozitif");
   else
-    printf("Girilen sayi negatif");
+    printf("Girilen sayi negatif\n");
+    printf("seni sevmistim ama sen bana inanmadin good bye");
+
   return 0;
 }
