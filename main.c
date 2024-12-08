@@ -17,8 +17,11 @@ int main(){
 
     sonuc = sayi1 + sayi2;
 
-    printf("%d+%d= %d", sayi1, sayi2, sonuc);
-    printf("merhaba is dunyası");
+    printf("%d+%d= %d\n", sayi1, sayi2, sonuc);
+    printf("merhaba is dunyasi\n");
+    printf("turkiyenin sonu ne olacak\n");
+
+
 
     getch(); //Klavyeden bir deðer bekler ve program ekranýn kapanmamasýný saðlar
 
