@@ -1,17 +1,27 @@
+
 #include <stdio.h>
-#include <stdlib.h>
+#include <conio.h>  //getch() için gerekli
 
-int main(void) {
-  int sayi;
-  printf("Bir sayi girin:");
-  scanf("%d",&sayi);
-  if (sayi==0)
-    printf("Girilen sayi sifir");
-  else if (sayi > 0)
-    printf("Girilen sayi pozitif");
-  else
-    printf("Girilen sayi negatif\n");
+//Toplama iþlemi
+//Cemalettin Serit ckaynak.com | teknooneri.com | cemserit.com | wpeklentiler.com
 
+int main(){
 
-  return 0;
+    int sayi1, sayi2, sonuc;
+
+    printf("Birinci Sayiyi Giriniz: ");
+    scanf("%d", &sayi1);
+
+    printf("Ikinci Sayiyi Giriniz: ");
+    scanf("%d", &sayi2);
+
+    sonuc = sayi1 + sayi2;
+
+    printf("%d+%d= %d", sayi1, sayi2, sonuc);
+    printf("merhaba is dunyası");
+
+    getch(); //Klavyeden bir deðer bekler ve program ekranýn kapanmamasýný saðlar
+
+    return 0; // Programý sonlandýrýr
+
 }
